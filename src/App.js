@@ -1,14 +1,13 @@
 import React, { Component, Fragment } from 'react';
 // import GlobalStyle from 'assets/GlobalStyle'
-import Button from './components/Button/Button';
+import Basic from './containers/Basic';
 
 class App extends Component {
   render() {
     return (
       <Fragment>
         {/* <GlobalStyle /> */}
-        <Button />
-        <Button active />
+        <Basic />
       </Fragment>
     );
   }
